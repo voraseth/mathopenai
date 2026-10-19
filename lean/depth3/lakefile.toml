@@ -1,0 +1,14 @@
+name = "Depth3Note"
+version = "0.1.0"
+defaultTargets = ["Depth3Note"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.32.0"
+
+[[lean_lib]]
+name = "Depth3Note"
